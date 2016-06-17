@@ -3,6 +3,8 @@ param (
     $SampleSet    = 100
 )
 
+write-progress -activity "Central Limit Theorem" -status "Flipping coins..."
+
 1..$TotalSamples |
     ForEach {
         1..$SampleSet |
