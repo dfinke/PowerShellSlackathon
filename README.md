@@ -1,1 +1,0 @@
-My most excellent entries for the PowerShell Slackathon.
